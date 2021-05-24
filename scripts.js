@@ -126,8 +126,8 @@ document.addEventListener("DOMContentLoaded", (function () {
                 "pink",
             ];
 
-            let randomNum = Math.floor(Math.random() * colors.length);
-            li.style.color = colors[randomNum];
+            let randomCol = Math.floor(Math.random() * colors.length);
+            li.style.color = colors[randomCol];
     }); //creates event listener function list to randomly shuffle colors when element in list is clicked once!
 
         li.addEventListener("dblclick", function () {
